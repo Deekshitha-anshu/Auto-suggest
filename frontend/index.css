@@ -14,3 +14,16 @@ h1{
     #p2{
     color:orange;
 }
+#nav{
+    text-align:center;
+    background-color: brown;
+    height:25px;
+    padding-top:5px;
+    margin-bottom:5px;
+}
+#nav a{
+    margin : 0px 5px;
+    /*margin y-axis;x-axis*/
+    text-decoration:none;
+    color:white
+}
