@@ -1,3 +1,16 @@
 h1{
-    color:aqua;
+    color:green;
+}
+#home-into{
+    text-align:center;
+    border: 3pt;
+    border-color:blueviolet;
+    border-style:solid;
+}
+#home-intro:hover
+{
+    background-color: burlywood;
+}
+    #p2{
+    color:orange;
 }
