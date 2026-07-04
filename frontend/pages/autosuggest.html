@@ -22,15 +22,53 @@
             margin-top: 40px;
         }
 
-        .search{
-            text-align: center;
-            margin-top: 20px;
-        }
-
+        
+        .highlight{
+    color: #453ed0;   /* Blue */
+    font-weight: bold;
+}
+p{
+    color: #6B7280;   /* Gray */
+}
         input{
             padding: 8px;
             width: 250px;
         }
+        .search-box{
+    width: 350px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.search-box input{
+    width: 100%;
+    padding: 12px 12px 12px 45px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 30px;   /* Rounded corners */
+    outline: none;
+    box-sizing: border-box;
+}
+
+.search-box input:focus{
+    border-color: #4F46E5;
+}
+
+.search-icon{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 18px;
+
+}
+#suggestion-box{
+    border:1px solid #6B7280;
+    width:38%;
+    margin-left: 30%;
+
+}
     </style>
 </head>
 <body>
@@ -46,13 +84,19 @@
     </div>
 
     <div class="content">
-        <h1>InfiniSearch</h1>
+       
+        <h1><span class="highlight">Infini</span>Search</h1>
         <p>One million phrases, Four Algorithms, Prefix Base Auto Suggest...</p>
     </div>
 
-    <div class="search">
-        &#128269;
+    <div class="search-box">
+        <span class="search-icon">&#128269;</span>
         <input type="text" placeholder="Start Typing to search">
+        </div>
+      <div id="suggestion-box" >
+            Suggestion box
+   
+       
     </div>
 
 </body>
