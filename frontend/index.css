@@ -27,3 +27,31 @@ h1{
     text-decoration:none;
     color:white
 }
+#card {
+    border:3px solid black;
+    align-items: center;
+
+
+}
+#card-img{
+    width:300px;
+    height:300px;
+
+    align-items: center;
+    margin:0px auto;
+
+}
+img{
+    width:300px;
+    height:300px;
+}
+#card h1,p button{
+    text-align:center;
+
+}
+#action{
+    text-align:center;
+}
+button{
+ width:100px;
+}
