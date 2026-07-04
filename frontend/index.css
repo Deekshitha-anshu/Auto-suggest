@@ -1,57 +1,64 @@
 h1{
-    color:green;
+    color:rgb(158, 6, 64);
 }
-#home-into{
+#p2{
+    color:rgb(236, 69, 139);
+}
+#p1{
+    color:rgba(241, 15, 102, 0.89);
+}
+
+#Home-intro{
     text-align:center;
-    border: 3pt;
-    border-color:blueviolet;
-    border-style:solid;
+    /*border:3px;
+    border-color:black;
+    border-style: solid;*/
+    border:3px solid black;
+    background-color: rgb(252, 243, 248);
 }
-#home-intro:hover
-{
-    background-color: burlywood;
+#Home-intro:hover{
+    background-color:rgb(186, 216, 228);
 }
-    #p2{
-    color:orange;
-}
-#nav{
+#nav{ 
     text-align:center;
-    background-color: brown;
+    border:3px solid aqua(223, 26, 26);
     height:25px;
     padding-top:5px;
-    margin-bottom:5px;
+    background-color: rgb(1, 29, 29);
 }
 #nav a{
-    margin : 0px 5px;
-    /*margin y-axis;x-axis*/
-    text-decoration:none;
-    color:white
+margin:0px 5px;
+/*y-axis ,x-axis*/
+color:rgb(142, 229, 229);
+text-decoration:none;
+/*no underlines under text*/
 }
-#card {
+#card{
+    text-align:center;
+    align-items:center;
+    width:430px;
+    height:500px;
     border:3px solid black;
-    align-items: center;
-
-
+    margin:3px auto;
+    border-radius: 8px;
 }
 #card-img{
-    width:300px;
-    height:300px;
-
-    align-items: center;
-    margin:0px auto;
+    border:3px auto black;
+    height:250px;
+}
+#card-name{
+    text-align: center;
+    -webkit-text-fill-color: rgb(7, 95, 95);
 
 }
-img{
-    width:300px;
-    height:300px;
-}
-#card h1,p button{
+#card-gender{
     text-align:center;
-
+    -webkit-text-fill-color: deeppink;
 }
-#action{
+#Toggle{
     text-align:center;
+    -webkit-text-fill-color: rgb(104, 218, 142);
 }
 button{
- width:100px;
+    width:100%;
 }
