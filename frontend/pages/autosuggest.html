@@ -4,21 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .content{
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .search{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input{
+            padding: 8px;
+            width: 250px;
+        }
+    </style>
 </head>
 <body>
-    <span>
-        &#9881;
-    </span>
-    <span>
-        &#x2022;online | &#x1F552; -ms </span>
-        <h1>
-            Being Infinity
-        </h1>
-        <p>
-            one million pharses,Four Algorithms,Prefix Base Auto Suggest...
-        </p>
-        <span>
-            &#128269;<input placeholder="Start Typing to search"> 
-        </span>
+
+    <div class="top">
+        <!-- Gear on the left -->
+        <span>&#9881;</span>
+
+        <!-- Status on the right -->
+        <div>
+            &#x2022; Online | &#x1F552; -ms
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>InfiniSearch</h1>
+        <p>One million phrases, Four Algorithms, Prefix Base Auto Suggest...</p>
+    </div>
+
+    <div class="search">
+        &#128269;
+        <input type="text" placeholder="Start Typing to search">
+    </div>
+
 </body>
 </html>
